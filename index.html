@@ -21,25 +21,60 @@
         <div class="BeStore_top_menu">
             <div class="container-fluid" >
                 <div class="row">
-                    <div class="col-4">
-                        <ul class="list-inline">
-                            <li class="list-inline-item"><a href="#">manager@shop.com</a><img src="assets/img/top_menu/email.png" alt="email logo"></li>
-                            <li class="list-inline-item"><a href="#">(+800) 123 456 7890</a><img src="assets/img/top_menu/phone-call.png" alt="phone call logo"></li>
+                    <div class="col-sm-12 col-md-4">
+                        <ul class="list-inline d-flex justify-content-center">
+                            <li class="list-inline-item"><img src="assets/img/top_menu/email.svg" alt="email logo"><a href="#">manager@shop.com</a></li>
+                            <li class="list-inline-item"><img src="assets/img/top_menu/phone-call.svg" alt="phone call logo"><a href="#">(+800) 123 456 7890</a></li>
                         </ul>
-                    </div><!-- .col-4 -->
-                    <div class="col-8">
-                        <ul class="list-inline">
-                            <li class="list-inline-item"><a href="#">Register or Sign in</a><img src="assets/img/top_menu/user.png" alt="Register or Sign in logo"></li>
-                            <li class="list-inline-item"><a href="#">Delivery</a><img src="assets/img/top_menu/delivery-truck.png" alt="Delivery logo"></li>
-                            <li class="list-inline-item"><a href="#">Payment</a><img src="assets/img/top_menu/credit-card.png" alt="Payment logo"></li>
-                            <li class="list-inline-item"><a href="#">Guarantee</a><img src="assets/img/top_menu/shield.png" alt="Guarantee logo"></li>
-                            <li class="list-inline-item"><a href="#">Blog</a><img src="assets/img/top_menu/blogging.png" alt="Blog logo"></li>
-                            <li class="list-inline-item"><a href="#">Location store</a><img src="assets/img/top_menu/pin.png" alt="Location store logo"></li>
+                    </div><!-- .col-md-4 -->
+                    <div class="col-sm-12 col-md-8">
+                        <ul class="list-inline d-flex justify-content-center">
+                            <li class="list-inline-item"><img src="assets/img/top_menu/user.svg" alt="Register or Sign in logo"><a href="#">Register or Sign in</a></li>
+                            <li class="list-inline-item"><img src="assets/img/top_menu/delivery-truck.svg" alt="Delivery logo"><a href="#">Delivery</a></li>
+                            <li class="list-inline-item"><img src="assets/img/top_menu/credit-card.svg" alt="Payment logo"><a href="#">Payment</a></li>
+                            <li class="list-inline-item"><img src="assets/img/top_menu/shield.svg" alt="Guarantee logo"><a href="#">Guarantee</a></li>
+                            <li class="list-inline-item"><img src="assets/img/top_menu/blogging.svg" alt="Blog logo"><a href="#">Blog</a></li>
+                            <li class="list-inline-item"><img src="assets/img/top_menu/pin.svg" alt="Location store logo"><a href="#">Location store</a></li>
                         </ul>
-                    </div><!-- .col-8 -->
+                    </div><!-- .col-md-8 -->
                 </div><!-- .row -->
             </div><!-- .container-fluid -->
         </div><!-- .BeStore_top_menu -->
+        <div class="BeStore_search_section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="float-left">
+                            <img class="img-fluid" src="assets/img/search_section/YOUSHOP.jpg" alt="store logo">
+                            <p>Description of your online store</p>
+                        </div>
+                    </div><!-- .col-md-3 -->
+                    <div class="col-md-5">
+                        <div class="d-flex justify-content-center BeStore_search_form">
+                            <form class="form-inline" action="#" >
+                                <input class="form-control" placeholder="Search" name="search_term" type="text">
+                                <button class="btn" type="submit"><img src="assets/img/search_section/search.svg" alt="search logo"></button>
+                            </form>
+                        </div>
+                    </div><!-- .col-md-5 -->
+                    <div class="col-md-4">
+                        <div class="d-flex justify-content-center">
+                            <p class="BeStore_cart_description">7 days a week from 8:00 am to 5:00 pm</p>
+                            <div class="BeStore_favorite_products">
+                                <img src="assets/img/search_section/heart.svg" alt="favorite">
+                                <i>0</i>
+                            </div>
+                            <div class="BeStore_cart">
+                                <img src="assets/img/search_section/shopping-cart.svg" alt="">
+                                <span class="BeStore_cart_title">My cart</span>
+                                <span class="BeStore_price">$ 0.00</span>
+                                <i>0</i>
+                            </div>
+                        </div>
+                    </div><!-- .col-md-4 -->
+                </div><!-- .row -->
+            </div><!-- .container-fluid -->
+        </div><!-- .BeStore_search_section -->
     </header><!-- #header -->
     <section id="hero">
     </section><!-- #hero -->
@@ -58,7 +93,7 @@
 </div><!-- #page -->
 <!--scripts-->
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
-<script src="node_modules/@popperjs/core/dist/cjs/popper.js"></script>
+<script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="assets/js/BeStore_js.js"></script>
 </body>
