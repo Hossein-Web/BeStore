@@ -43,8 +43,7 @@
                         <div id="widget_area_collapse">
                             <div class="card be_store_collapse_widget">
                                 <div class="card-header">
-                                    <a href="#widget_collapse_one" class="card-link" data-toggle="collapse">Related
-                                        Categories</a>
+                                    <a href="#widget_collapse_one" class="card-link" data-toggle="collapse">Related Categories</a>
                                 </div><!-- .card-header -->
                                 <div id="widget_collapse_one" class="collapse show">
                                     <div class="card-body">
@@ -174,7 +173,57 @@
                     </aside><!-- #aside -->
                 </div><!-- .col-md-3 -->
                 <div class="col-md-9">
-                    <div id="product"></div><!-- #product -->
+                    <div id="product_wrapper">
+                        <div id="product_filter_bar">
+                            <div class="container-fluid">
+                                <div class="row justify-content-between">
+                                    <div class="col-md-4 col-12">
+                                        <div class="be_store_filter_one">
+                                            <a href="#">
+                                                <img src="assets/img/icons/Symbol_22_1.svg" alt="product grid view">
+                                            </a>
+                                            <a href="#">
+                                                <img src="assets/img/icons/Symbol_23_1.svg" alt="product list view">
+                                            </a>
+                                            <span>Showing 16 / 125 results</span>
+                                        </div>
+                                    </div><!-- .col-md-4 -->
+                                    <div class="col-md-4 col-12">
+                                        <div class="be_store_filter_two">
+                                            <label for="product_filter">sort by:</label>
+                                            <select id="product_filter">
+                                                <option value="price low to high">price low to high</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                            </select>
+                                        </div>
+                                    </div><!-- .col-md-4 -->
+                                </div><!-- .row -->
+                            </div><!-- .container-fluid -->
+                        </div><!-- #product_filter_bar -->
+                        <div id="product">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-3 col-sm-6 col-12"></div>
+                                    <div class="col-md-3 col-sm-6 col-12"></div>
+                                    <div class="col-md-3 col-sm-6 col-12"></div>
+                                    <div class="col-md-3 col-sm-6 col-12"></div>
+                                </div><!-- .row -->
+                            </div><!-- .container-fluid -->
+                        </div><!-- #product -->
+                    </div><!-- #product_wrapper -->
+                    <div id="recently_viewed">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <h2>Recently Viewed</h2>
+                                <div class="col-md-12 col-sm-2 col-1"></div>
+                                <div class="col-md-12 col-sm-2 col-1"></div>
+                                <div class="col-md-12 col-sm-2 col-1"></div>
+                                <div class="col-md-12 col-sm-2 col-1"></div>
+                            </div>
+                        </div>
+                    </div><!-- #recently_viewed -->
                 </div><!-- .col-md-9 -->
             </div><!-- .row -->
 
@@ -183,12 +232,8 @@
     <section id="keywords">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-9">
+                <div class="col-12">
                     <h2>Most Search Keywords</h2>
-                </div><!-- .col-md-9 -->
-            </div><!-- .row -->
-            <div class="row">
-                <div class="col-md-9">
 
                 </div><!-- .col-md-9 -->
             </div><!-- .row -->
@@ -199,7 +244,7 @@
     </footer><!-- #footer -->
 </div><!-- #page -->
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
-<script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="node_modules/jquery-ui-dist/jquery-ui.min.js"></script>
 <script>
