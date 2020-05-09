@@ -8,6 +8,7 @@
     <meta name="keywords" content="Mobile, Tablet, Laptop">
     <link rel="shortcut icon" type="image/x-icon" href="#"/>
     <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="node_modules/jquery-ui-dist/jquery-ui.min.css"/>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
     <title>products</title>
 </head>
@@ -17,6 +18,17 @@
 
     </header>
     <div id="headline">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="index.html">Home</a></li>
+                        <li class="list-inline-item"><a href="#">Categories</a></li>
+                        <li class="list-inline-item"><span>Tablet and Laptop Accessories</span></li>
+                    </ul>
+                </div><!-- .col-12 -->
+            </div><!-- .row -->
+        </div><!-- .container-fluid -->
     </div><!-- #headline -->
     <section id="content">
         <div class="container-fluid">
@@ -28,7 +40,128 @@
             <div class="row">
                 <div class="col-md-3">
                     <aside id="aside">
+                        <div id="widget_area">
+                            <div class="card be_store_widget">
+                                <div class="card-header">
+                                    <a href="#widget_collapse_one" class="card-link" data-toggle="collapse">Related
+                                        Categories</a>
+                                </div><!-- .card-header -->
+                                <div id="widget_collapse_one" class="collapse show">
+                                    <div class="card-body">
+                                        <p>Categories</p>
+                                        <ul>
+                                            <li>Tablet & Laptops Accessories</li>
+                                        </ul>
+                                    </div><!-- .card-body -->
+                                </div><!-- #widget_collapse_one -->
+                            </div><!-- .be_store_widget -->
+                            <div class="card be_store_widget">
+                                <div class="card-header">
+                                    <a href="#widget_collapse_two" class="card-link" data-toggle="collapse">Refine
+                                        by</a>
+                                </div><!-- .card-header -->
+                                <div id="widget_collapse_two" class="collapse">
+                                    <div class="card-body">
+                                        <input type="search" value="" placeholder="">
+                                        <a href="#">Clear All</a>
+                                    </div><!-- .card-body -->
+                                </div><!-- #widget_collapse_two -->
+                            </div><!-- .be_store_widget -->
+                            <div class="card be_store_widget">
+                                <div class="card-header">
+                                    <a href="#widget_collapse_three" class="card-link" data-toggle="collapse">Price</a>
+                                </div><!-- .card-header -->
+                                <div id="widget_collapse_three" class="collapse">
+                                    <div class="card-body">
+                                        <div id="slider-range"></div>
+                                        <p>
+                                            <label for="amount">Price: </label>
+                                            <input type="text" id="amount" readonly>
+                                        </p>
+                                    </div><!-- .card-body -->
+                                </div><!-- #widget_collapse_three -->
+                            </div><!-- .be_store_widget -->
+                            <div class="card be_store_widget">
+                                <div class="card-header">
+                                    <a href="#widget_collapse_four" class="card-link" data-toggle="collapse">Operating
+                                        System</a>
+                                </div><!-- .card-header -->
+                                <div id="widget_collapse_four" class="collapse">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li><a href="#">Android 6.0</a></li>
+                                            <li><a href="#">Android 5.1</a></li>
+                                            <li><a href="#">Android 5.0</a></li>
+                                            <li><a href="#">Android 4.4</a></li>
+                                        </ul>
+                                    </div><!-- .card-body -->
+                                </div><!-- #widget_collapse_four -->
+                            </div><!-- .be_store_widget -->
+                            <div class="card be_store_widget">
+                                <div class="card-header">
+                                    <a href="#widget_collapse_five" class="card-link" data-toggle="collapse">Screen
+                                        Size</a>
+                                </div><!-- .card-header -->
+                                <div id="widget_collapse_five" class="collapse">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li><a href="#">1920x1200</a></li>
+                                            <li><a href="#">1280x800</a></li>
+                                            <li><a href="#">2560x1600</a></li>
+                                            <li><a href="#">1920x1080</a></li>
+                                            <li><a href="#">2048X1536</a></li>
+                                            <li><a href="#">1920*1280</a></li>
+                                            <li><a href="#">1024x600</a></li>
 
+                                        </ul>
+                                    </div><!-- .card-body -->
+                                </div><!-- #widget_collapse_five-->
+                            </div><!-- .be_store_widget -->
+                            <div class="card be_store_widget">
+                                <div class="card-header">
+                                    <a href="#widget_collapse_six" class="card-link" data-toggle="collapse">Processor
+                                        Core</a>
+                                </div><!-- .card-header -->
+                                <div id="widget_collapse_six" class="collapse">
+                                    <div class="card-body">
+
+                                    </div><!-- .card-body -->
+                                </div><!-- #widget_collapse_six-->
+                            </div><!-- .be_store_widget -->
+                            <div class="card be_store_widget">
+                                <div class="card-header">
+                                    <a href="#widget_collapse_seven" class="card-link" data-toggle="collapse">Tablet
+                                        Data Capacity</a>
+                                </div><!-- .card-header -->
+                                <div id="widget_collapse_seven" class="collapse">
+                                    <div class="card-body">
+
+                                    </div><!-- .card-body -->
+                                </div><!-- #widget_collapse_seven-->
+                            </div><!-- .be_store_widget -->
+                            <div class="card be_store_widget">
+                                <div class="card-header">
+                                    <a href="#widget_collapse_eight" class="card-link" data-toggle="collapse">Processor
+                                        Core</a>
+                                </div><!-- .card-header -->
+                                <div id="widget_collapse_eight" class="collapse">
+                                    <div class="card-body">
+
+                                    </div><!-- .card-body -->
+                                </div><!-- #widget_collapse_eight-->
+                            </div><!-- .be_store_widget -->
+                            <div class="card be_store_widget">
+                                <div class="card-header">
+                                    <a href="#widget_collapse_nine" class="card-link" data-toggle="collapse">Tablet Data
+                                        Capacity</a>
+                                </div><!-- .card-header -->
+                                <div id="widget_collapse_nine" class="collapse">
+                                    <div class="card-body">
+
+                                    </div><!-- .card-body -->
+                                </div><!-- #widget_collapse_nine-->
+                            </div><!-- .be_store_widget -->
+                        </div> <!-- #widget_area -->
                     </aside><!-- #aside -->
                 </div><!-- .col-md-3 -->
                 <div class="col-md-9">
@@ -57,8 +190,25 @@
     </footer><!-- #footer -->
 </div><!-- #page -->
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
-<script src="node_modules/@popperjs/core/dist/cjs/popper.js"></script>
+<script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="node_modules/jquery-ui-dist/jquery-ui.min.js"></script>
+<script>
+    $(function () {
+        var slider_range = $("#slider-range");
+        slider_range.slider({
+            range: true,
+            min: 0,
+            max: 7000,
+            values: [555, 5000],
+            slide: function (event, ui) {
+                $("#amount").val("$" + ui.values[0] + " - $" + ui.values[1]);
+            }
+        });
+        $("#amount").val("$" + slider_range.slider("values", 0) +
+            " - $" + slider_range.slider("values", 1));
+    });
+</script>
 <script src="assets/js/BeStore_js.js"></script>
 </body>
 </html>
