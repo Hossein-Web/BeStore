@@ -7,7 +7,7 @@
     <meta name="robots" content="index, follow">
     <meta name="keywords" content="Mobile, Tablet, Laptop">
     <link rel="shortcut icon" type="image/x-icon" href="#"/>
-    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
     <title>BeStore</title>
 </head>
@@ -123,50 +123,141 @@
             </div><!-- .container-fluid -->
         </div><!-- .BeStore_main_menu -->
     </header><!-- #header -->
-    <section id="hero">
+    <div id="hero">
         <div class="container-fluid">
-            <div class="col-md-4"></div>
-            <div class="col-md-8">
-                <div id="demo" class="carousel slide" data-ride="carousel">
-                    <ul class="carousel-indicators">
-                        <li data-target="#demo" data-slide-to="0" class="active"></li>
-                        <li data-target="#demo" data-slide-to="1"></li>
-                        <li data-target="#demo" data-slide-to="2"></li>
-                        <li data-target="#demo" data-slide-to="3"></li>
-                        <li data-target="#demo" data-slide-to="4"></li>
-                        <li data-target="#demo" data-slide-to="5"></li>
-                        <li data-target="#demo" data-slide-to="6"></li>
-                    </ul>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="" alt="">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="" alt="">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="" alt="">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="" alt="">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="" alt="">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="" alt="">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="" alt="">
-                        </div>
-                    </div><!-- .carousel-inner -->
-                </div>!-- .carousel -->
-            </div><!-- .col-md-8 -->
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-8">
+                    <div id="demo" class="BeStore_carousel carousel slide" data-ride="carousel">
+                        <ul class="carousel-indicators">
+                            <li data-target="#demo" data-slide-to="0" class="active"><i>1</i></li>
+                            <li data-target="#demo" data-slide-to="1"><i>2</i></li>
+                            <li data-target="#demo" data-slide-to="2"><i>3</i></li>
+                            <li data-target="#demo" data-slide-to="3"><i>4</i></li>
+                            <li data-target="#demo" data-slide-to="4"><i>5</i></li>
+                            <li data-target="#demo" data-slide-to="5"><i>6</i></li>
+                            <li data-target="#demo" data-slide-to="6"><i>7</i></li>
+                        </ul>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="img-fluid" src="assets/img/slider/bannerbig.jpg" alt="banner">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="img-fluid" src="assets/img/slider/bannerbig.jpg" alt="banner">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="img-fluid" src="assets/img/slider/bannerbig.jpg" alt="banner">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="img-fluid" src="assets/img/slider/bannerbig.jpg" alt="banner">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="img-fluid" src="assets/img/slider/bannerbig.jpg" alt="banner">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="img-fluid" src="assets/img/slider/bannerbig.jpg" alt="banner">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="img-fluid" src="assets/img/slider/bannerbig.jpg" alt="banner">
+                            </div>
+                        </div><!-- .carousel-inner -->
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div><!-- .BeStore_carousel -->
+                </div><!-- .col-md-8 -->
+            </div><!-- .row -->
         </div><!-- .container-fluid -->
-    </section><!-- #hero -->
+    </div><!-- #hero -->
     <div id="features">
+        <div class="container justify-content-center">
+            <div class="row">
+                <div class="col-sm-6 col-md-3">
+                    <div class="BeStore_feature">
+                        <img src="assets/img/icons/rocket.svg" alt="features">
+                        <h4>Free Shipping</h4>
+                        <span>Free Shipping All Order</span>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="BeStore_feature">
+                        <img src="assets/img/icons/umbrella.svg" alt="features">
+                        <h4>100% Money Guarantee</h4>
+                        <p>30 days money back</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="BeStore_feature">
+                        <img src="assets/img/icons/24.svg" alt="features">
+                        <h4>Help Center</h4>
+                        <p>24/7 Support System</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="BeStore_feature">
+                        <img src="assets/img/icons/wallet.svg" alt="features">
+                        <h4>Payment Method</h4>
+                        <p>Secure Payment</p>
+                    </div>
+                </div>
+            </div><!-- .row -->
+        </div><!-- .container -->
     </div><!-- #features -->
     <section id="selected_products">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="BeStore_section_title">
+                        <h2>Selected Products</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link active" data-toggle="tab">Trending Item</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#products_group2" class="nav-link" data-toggle="tab">New Arrivals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#products_group3" class="nav-link" data-toggle="tab">Best Sale</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane container active" id="home">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img class="img-fluid" src="assets/img/redmi_s2_banner.jpg" alt="REDMI S2">
+                                </div><!-- .col-md-6 -->
+                                <div class="col-md-6">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <img class="img-fluid" src="assets/img/iphone_7_plus_banner.jpg" alt="iphone 7 plus">
+                                            </div><!-- .col-md-6 -->
+                                            <div class="col-md-4">
+                                                
+                                            </div><!-- .col-md-4 -->
+                                            <div class="col-md-4">
+                                            </div><!-- .col-md-4 -->
+                                            <div class="col-md-4">
+                                            </div><!-- .col-md-4 -->
+                                        </div><!-- .row -->
+                                    </div><!-- .container-fluid -->
+                                </div><!-- .col-md-6 -->
+                            </div><!-- .row -->
+                        </div><!-- .tab-pane -->
+                        <div class="tab-pane container" id="products_group2"></div>
+                        <div class="tab-pane container" id="products_group3"></div>
+                    </div><!-- .tab-content -->
+                </div>
+            </div>
+        </div><!-- .container -->
     </section><!-- #selected_products -->
     <section id="featured_products">
     </section><!-- #featured_products -->
@@ -178,10 +269,10 @@
     </footer><!-- #footer -->
 </div><!-- #page -->
 <!--scripts-->
-<script src="node_modules/jquery/dist/jquery.min.js"></script>
-<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+<script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
 <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>-->
-<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="assets/js/BeStore_js.js"></script>
 </body>
 </html>
