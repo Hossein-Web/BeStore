@@ -4,6 +4,7 @@
   "description": "This is HTML theme for online store",
   "main": "index.js",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
     "bootstrap": "^4.4.1",
     "jquery": "^3.5.1",
     "jquery-ui-dist": "^1.12.1",
