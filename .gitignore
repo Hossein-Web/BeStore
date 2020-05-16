@@ -1,4 +1,6 @@
 .idea
+.sass-cache
 node_modules
-assets/fonts
-assets/img
+src/assets/fonts
+src/assets/img
+src/assets/css
