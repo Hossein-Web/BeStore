@@ -4,3 +4,4 @@ node_modules
 src/assets/fonts
 src/assets/img
 src/assets/css
+gulpfile.js
