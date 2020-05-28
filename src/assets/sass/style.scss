@@ -1,0 +1,104 @@
+@import 'base';
+// @use 'partials/mixins';
+// @use 'partials/variables';
+
+.be_store_top_menu{
+    font-size: 0.7rem;
+    background-color: $bold_text_color;
+    ul{
+        margin: 0;
+        flex-wrap: wrap;
+        li{
+            margin: 10px 15px;
+            text-align: center;
+            a{
+                color: white;
+                margin-left: 10px;
+            }
+        }
+    }
+}
+
+.be_store_search_section{
+    #be_store_logo{
+        margin: 20px 0;
+        span{
+            font-size: 0.7rem;
+            color: $bold_text_color;
+            margin-left: 30px;
+        }
+    }
+    .be_store_search_form{
+        margin: 20px 0;
+        form{
+            position: relative;
+            input{
+                width: 100%;
+                border: 1px solid $border_color;
+                border-radius: 20px;
+                height: 40px;
+            }
+            button{
+                position: absolute;
+                right: 0;
+                height: 100%;
+                width: 70px;
+                border-radius: 0;
+                border-top-right-radius: 20px;
+                border-bottom-right-radius: 20px;
+                background-color: $accent_color;
+            }
+        }
+       
+    }
+    .be_store_cart_description{
+        font-size: 0.7rem;
+        color: $accent_color;
+        margin: 20px;
+        margin-left: 0;
+    }
+    .be_store_favorite_products{
+        margin: 20px;
+        position: relative;
+        i{
+            position: absolute;
+            min-width: 20px;
+            height: 20px;
+            border-radius: 20px;
+            padding: 2px 7px;
+            background-color: $accent_color;
+            color: white;
+            font-size: 0.6rem;
+            right: -11px;
+            top: 0px;
+        }
+    }
+    .be_store_cart{
+        position: relative;
+        flex-shrink: 0;
+        margin: 20px;
+        .be_store_cart_title{
+            font-size: 1rem;
+            font-weight: bold;
+            color: $bold_text_color;
+            margin-left: 15px;
+        }
+        .be_store_price{
+            font-size: 0.7rem;
+            color: $bold_text_color;
+            margin: -6px 0 0 50px;
+        }
+        i{
+            position: absolute;
+            min-width: 20px;
+            height: 20px;
+            border-radius: 20px;
+            padding: 2px 7px;
+            background-color: $accent_color;
+            color: white;
+            font-size: 0.6rem;
+            right: 63px;
+            top: 0px;
+        }
+    }
+}
