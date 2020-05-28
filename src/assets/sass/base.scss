@@ -1,0 +1,23 @@
+@import "partials/variables";
+
+html{
+    font-size: 1rem;
+  }
+  
+  body{
+    // font-family: Yekan, sans-serif;
+    text-align: right;
+    // color: $primary_text;
+    background-color: $accent_color;
+  }
+  
+  input, button, textArea{
+    outline: none;
+    &:focus{outline: none;}
+  }
+  a:hover{
+    text-decoration: none;
+  }
+  a:active, a:focus{
+    outline: none;
+  }
