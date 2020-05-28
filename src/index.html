@@ -9,7 +9,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="#"/>
     <link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="../node_modules/@fortawesome/fontawesome-free/css/all.css"/>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.min.css"/>
     <title>BeStore</title>
 </head>
 <body>
@@ -21,16 +21,16 @@
     <!-- ********************Header section************************** -->
     <header id="header">
         <div class="be_store_top_menu">
-            <div class="container-fluid" >
+            <div class="container" >
                 <div class="row">
                     <div class="col-sm-12 col-md-4">
-                        <ul class="list-inline d-flex justify-content-center">
+                        <ul class="list-inline d-flex justify-content-between justify-content-sm-center">
                             <li class="list-inline-item"><img src="assets/img/icons/email.svg" alt="email logo"><a href="#">manager@shop.com</a></li>
                             <li class="list-inline-item"><img src="assets/img/icons/phone-call.svg" alt="phone call logo"><a href="#">(+800) 123 456 7890</a></li>
                         </ul>
                     </div><!-- .col-md-4 -->
                     <div class="col-sm-12 col-md-8">
-                        <ul class="list-inline d-flex justify-content-center">
+                        <ul class="list-inline d-flex justify-content-between">
                             <li class="list-inline-item"><img src="assets/img/icons/user.svg" alt="Register or Sign in logo"><a href="#">Register or Sign in</a></li>
                             <li class="list-inline-item"><img src="assets/img/icons/delivery-truck.svg" alt="Delivery logo"><a href="#">Delivery</a></li>
                             <li class="list-inline-item"><img src="assets/img/icons/credit-card.svg" alt="Payment logo"><a href="#">Payment</a></li>
@@ -40,10 +40,10 @@
                         </ul>
                     </div><!-- .col-md-8 -->
                 </div><!-- .row -->
-            </div><!-- .container-fluid -->
+            </div><!-- .container -->
         </div><!-- .be_store_top_menu -->
         <div class="be_store_search_section">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="row">
                     <div class="col-md-3">
                         <div id="be_store_logo" class="d-flex justify-content-center">
@@ -54,11 +54,11 @@
                         </div><!-- #be_store_logo -->
                     </div><!-- .col-md-3 -->
                     <div class="col-md-5">
-                        <div class="d-flex justify-content-center be_store_search_form">
+                        <div class="be_store_search_form">
                             <form class="form-inline" action="#" >
                                 <input class="form-control" placeholder="Search" name="search_term" type="text">
                                 <button class="btn" type="submit"><img src="assets/img/icons/search.svg" alt="search logo"></button>
-                            </form>
+                            </form><!-- .be_store_search_form --> 
                         </div>
                     </div><!-- .col-md-5 -->
                     <div class="col-md-4">
@@ -71,13 +71,13 @@
                             <div class="be_store_cart">
                                 <img src="assets/img/icons/shopping-cart.svg" alt="">
                                 <span class="be_store_cart_title">My cart</span>
-                                <span class="be_store_price">$ 0.00</span>
+                                <p class="be_store_price">$ 0.00</p>
                                 <i>0</i>
                             </div>
                         </div>
                     </div><!-- .col-md-4 -->
                 </div><!-- .row -->
-            </div><!-- .container-fluid -->
+            </div><!-- .container -->
         </div><!-- .be_store_search_section -->
         <div class="be_store_main_menu">
             <div class="container-fluid">
