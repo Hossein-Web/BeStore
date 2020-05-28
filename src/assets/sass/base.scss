@@ -1,0 +1,21 @@
+@import 'partials/variables';
+
+html{
+    font-size: 1rem;
+  }
+  
+  body{
+    //font-family: Yekan, sans-serif;
+    background-color: $background_color;
+  }
+  
+  input, button, textArea{
+    outline: none;
+    &:focus{outline: none;}
+  }
+  a:hover{
+    text-decoration: none;
+  }
+  a:active, a:focus{
+    outline: none;
+  }
