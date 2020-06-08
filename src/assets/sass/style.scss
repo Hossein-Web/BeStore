@@ -102,3 +102,55 @@
         }
     }
 }
+
+.be_store_main_menu{
+    background-color: $background_color;
+    #collapsibleNavbar{
+        border-top: 1px solid $border_color;
+    }
+    .navbar-dark .navbar-nav .nav-link{
+        &.dropdown-toggle{
+            width: 270px;
+            background-color: $accent_color;
+            color: white;
+            &::after{
+                border: none;
+            }
+        }
+        color: $text_color;
+        font-size: 1rem;
+    }
+    .dropdown-menu{
+        background-color: white;
+        border: none;
+        border-radius: none;
+        padding: 0;
+        margin: 0;
+        width: 270px;
+        .dropdown-item{
+            &:first-child{
+            border-top: 1px solid #E2E2E2;
+            }
+            position: relative;
+            font-size: 0.9rem;
+            height: 40px;
+            border-bottom: 1px solid #E2E2E2;
+            a{
+                color: $text_color;
+            }
+            i{
+                color: $text_color;
+                position: absolute;
+                right: 15px;
+            }
+        }
+    }
+    .navbar-dark .navbar-toggler{
+        border: none;
+        padding: 0;
+        .navbar-toggler-icon{
+            background-image: url( '../../../node_modules/@fortawesome/fontawesome-free/svgs/solid/bars.svg' );
+        }
+    }
+    
+}
