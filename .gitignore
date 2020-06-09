@@ -4,5 +4,6 @@ node_modules
 src/assets/fonts
 src/assets/img
 src/assets/css
+src/font
 dist
 gulpfile.js
