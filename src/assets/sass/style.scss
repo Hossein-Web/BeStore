@@ -3,11 +3,73 @@
 @import 'base';
 
 /*
-Table of conten
+Table of content
+-General
 -Product page
 --Headline section
 --Content section
 */
+
+/*################### General ###################*/
+.be_store_section_title{
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    color: $text_color;
+}
+.be_store_product{
+    background-color: white;
+    padding-top: 15px;
+    &:hover{
+        box-shadow: black 0 4px 10;
+    }
+    .be_store_product_detail{
+        margin-top: 5px;
+        .be_store_product_rating{
+            color: $rating_color;
+            margin-bottom: 11px;
+            .be_store_no_rating_star{
+                color: $border_color;
+            }
+        }
+        .be_store_product_title{
+            margin-bottom: 10px;
+            font-size: 0.8125rem;
+        }
+        .be_store_product_price{
+            margin-bottom: 19px;
+        }
+    }
+    .be_store_product_action{
+        padding-bottom: 15px;
+        display: flex;
+    }
+    .be_store_wishlist{
+        border: 1px solid $border_color;
+        border-radius: 40px;
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+        position: relative;
+        img{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate( -50%, -50% );
+        }
+    }
+
+}
+.be_store_btn{
+    background-color: $accent_color;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-right: 15px;
+    height: 40px;
+    font-size: 0.875rem;
+    font-weight: bold;
+}
 
 /*################### Headline Section ###################*/
 #headline{
@@ -87,58 +149,5 @@ Table of conten
 #product{
     background-color: white;
 }
-.be_store_product{
-    background-color: white;
-    padding-top: 15px;
-    &:hover{
-        box-shadow: black 0 4px 10;
-    }
-    .be_store_product_detail{
-        margin-top: 5px;
-        .be_store_product_rating{
-            color: $rating_color;
-            margin-bottom: 11px;
-            .be_store_no_rating_star{
-                color: $border_color;
-            }
-        }
-        .be_store_product_title{
-            margin-bottom: 10px;
-            font-size: 0.8125rem;
-        }
-        .be_store_product_price{
-            margin-bottom: 19px;
-        }
-    }
-    .be_store_product_action{
-        padding-bottom: 15px;
-        display: flex;
-    }
-    .be_store_wishlist{
-        border: 1px solid $border_color;
-        border-radius: 40px;
-        width: 40px;
-        height: 40px;
-        display: inline-block;
-        position: relative;
-        img{
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate( -50%, -50% );
-        }
-    }
 
-}
 
-.be_store_btn{
-    background-color: $accent_color;
-    color: white;
-    padding: 10px 16px;
-    border-radius: 20px;
-    display: inline-block;
-    margin-right: 15px;
-    height: 40px;
-    font-size: 0.875rem;
-    font-weight: bold;
-}
