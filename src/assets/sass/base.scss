@@ -7,8 +7,14 @@ html{
   body{
     //font-family: Yekan, sans-serif;
     background-color: $background_color;
+    color: $text_color;
   }
-  
+  a{
+    color: $anchor_color;
+    &:hover{
+      color: $accent_color;
+    }
+  }
   input, button, textArea{
     outline: none;
     &:focus{outline: none;}
