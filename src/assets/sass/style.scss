@@ -210,3 +210,46 @@
     }
     
 }
+
+.be_store_carousel{
+    .carousel-indicators{
+        right: 32px;
+        left: auto;
+        margin-left: 0;
+        margin-right: 0;
+        li{
+            text-indent: unset;
+            width: 32px;
+            height: 32px;
+            opacity: 1;
+            background-color: $border_color;
+            i{
+                display: inline-block;
+                margin-top: 3px;
+                margin-left: 10px;
+            }
+            &.active{
+                background-color: $accent_color;
+                color: white;
+            }
+        }
+    }
+    .carousel-control-prev, .carousel-control-next{
+        width: 32px;
+        height: 50px;
+        top: 50%;
+        background-color: $border_color;
+        color: $text_color;
+        i{
+            margin-top: -3px;
+        }
+    }
+    .carousel-control-prev{
+        transform: translate( 50%, -50% );
+        left: 16px;
+    }
+    .carousel-control-next{
+        transform: translate( -50%, -50% );
+        right: 16px
+    }
+}
