@@ -253,3 +253,26 @@
         right: 16px
     }
 }
+
+.be_store_features_container{
+    padding: 0 8px;
+    border: 2px solid $border_color;
+    background-color: white;
+    margin: 30px 0 60px 0;
+    .be_store_feature{
+        margin: 20px 0;
+        .be_store_feature_info{
+            padding-left: 15px;
+            color: $text_color;
+            h6{
+                font-weight: bold;
+                margin-bottom: 5px;
+            }
+            p{
+                font-size: 0.88rem;
+                margin-bottom: 0;
+            }
+        }
+
+    }
+}
