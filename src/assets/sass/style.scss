@@ -1,12 +1,14 @@
 @import 'partials/mixins';
 @import 'partials/variables';
 @import 'base';
+@import 'responsive';
 
 /*
 Table of content
 -General
 -Product page
 --Headline section
+--Aside section
 --Content section
 */
 
@@ -19,8 +21,34 @@ Table of content
 .be_store_product{
     background-color: white;
     padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
     &:hover{
-        box-shadow: black 0 4px 10;
+        box-shadow: 0 4px 10px rgba( 0, 0, 0, 0.2);
+        position: absolute;
+        z-index: 1;
+        .be_store_product_action{
+            display: flex;
+         
+        }
+    }
+    .be_store_product_discount_feature{
+        position: absolute;
+        background-color: #EF4317;
+        color: white;
+        font-size: 0.75rem;
+        text-align: center;
+        line-height: 21px;
+        width: 44px;
+        height: 24px;
+        border-radius: 0 12px 12px 0;
+        top: 0;
+        left: 0;
+    }
+    .be_store_product_new_fearute{
+        @extend .be_store_product_discount_feature;
+        background-color: #5680E2;
     }
     .be_store_product_detail{
         margin-top: 5px;
@@ -33,15 +61,17 @@ Table of content
         }
         .be_store_product_title{
             margin-bottom: 10px;
-            font-size: 0.8125rem;
+            font-size: 0.81rem;
         }
         .be_store_product_price{
             margin-bottom: 19px;
+            font-weight: bold;
         }
     }
     .be_store_product_action{
         padding-bottom: 15px;
-        display: flex;
+        // display: flex;
+        display: none;
     }
     .be_store_wishlist{
         border: 1px solid $border_color;
@@ -71,6 +101,51 @@ Table of content
     font-weight: bold;
 }
 
+.be_store_load_more{
+    background-color: white;
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px;
+    font-size: 0.88rem;
+}
+
+.be_store_pagination{
+    margin-top: 60px;
+    text-align: center;
+    li{
+        a, span{
+            color: $bold_text_color;
+            display: inline-block;
+            width: 32px;
+            height: 32px;
+            background-color: white;
+            text-align: center;
+            font-size: 0.75rem;
+            font-weight: 600;
+            border: 2px solid $border_color;
+            line-height: 26px;
+        }       
+        &.be_store_active_page{
+            span{
+                background-color: $accent_color;
+                color: white;
+                border: 2px solid transparent;
+            } 
+        
+        }
+        &.be_store_pagination_more{
+            span{
+                background-color: transparent;
+                border: none;
+            }
+        }
+        &.be_store_prev_page, &.be_store_next_page{
+            a{
+                color: $anchor_color;
+            }
+        }
+    }
+}
 /*################### Headline Section ###################*/
 #headline{
     margin-bottom: 2rem;
@@ -92,7 +167,27 @@ Table of content
         }
     }
 }
-
+/*################### Aside Section ###################*/
+#widget_area_collapse{
+    background-color: white;
+    box-shadow:  0 3px 6px rgba( 0, 0, 0, 0.16 );
+}
+.card-header{
+    color: $bold_text_color;
+    background-color: white;
+    i{
+        position: relative;
+        right: 7px;
+    }
+    a{
+        color: $bold_text_color;
+        font-weight: bold;
+        transition: all 1s;
+    }
+}
+.card-body{
+    background-color: white;
+}
 
 /*################### Content Section ###################*/
 
@@ -100,6 +195,7 @@ Table of content
 #product_filter_bar{
     flex-wrap: wrap;
     margin-bottom: 40px;
+    font-size: 0.81rem;
 }
 .be_store_view_filter{
     a:first-child{
@@ -113,7 +209,6 @@ Table of content
     border: 1px solid $border_color;
     border-radius: 20px;
     background-color: white;
-    font-size: 0.81rem;
     position: relative;
     padding: 0 15px;
     &::after{
@@ -149,5 +244,35 @@ Table of content
 #product{
     background-color: white;
 }
-
+#keywords{
+    border-top:1px solid $border_color;
+    margin-top: 98px;
+    background-color: #f6f6f6;
+    padding-bottom: 44px;
+    h6{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+}
+.be_store_search_keyword{
+    span{
+        font-weight: bold;
+    }  color: $anchor_color;
+    li{ 
+        margin-right: 0 !important;
+        &:not( :last-child ){
+            &::after{
+                content: '|';
+                display: inline;
+                position: absolute;
+                color: $anchor_color;
+            }
+        }    
+        a{
+            font-size: 0.81rem;
+            padding: 0 0.5rem;
+        }
+    }
+}
 
