@@ -30,14 +30,15 @@
             </div><!-- .container-fluid -->
         </div><!-- #headline -->
         <section id="content">
-            <div class="container-fluid">
+            <div class="container">
                 <h4 class="be_store_section_title">Tablet & Laptops Accessories </h4>
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-lg-3 col-md-4 col-12">
                         <aside id="aside">
                             <div id="widget_area_collapse">
                                 <div class="card be_store_collapse_widget">
                                     <div class="card-header">
+                                        <i class="fas fa-caret-down"></i>
                                         <a href="#widget_collapse_one" class="card-link" data-toggle="collapse">Related
                                             Categories</a>
                                     </div><!-- .card-header -->
@@ -52,22 +53,30 @@
                                 </div><!-- .be_store_collapse_widget -->
                                 <div class="card be_store_collapse_widget">
                                     <div class="card-header">
+                                        <i class="fas fa-caret-down"></i>
                                         <a href="#widget_collapse_two" class="card-link" data-toggle="collapse">Refine
                                             by</a>
                                     </div><!-- .card-header -->
-                                    <div id="widget_collapse_two" class="collapse">
+                                    <div id="widget_collapse_two" class="collapse show">
                                         <div class="card-body">
-                                            <input type="search" value="" placeholder="">
+                                            <div class="be_store_search_form">
+                                                <input type="search" value="" placeholder="">
+                                                <button href="#">
+                                                    <span></span>
+                                                    <span></span>
+                                                </button>
+                                            </div>
                                             <a href="#">Clear All</a>
                                         </div><!-- .card-body -->
                                     </div><!-- #widget_collapse_two -->
                                 </div><!-- .be_store_collapse_widget -->
                                 <div class="card be_store_collapse_widget">
                                     <div class="card-header">
+                                        <i class="fas fa-caret-down"></i>
                                         <a href="#widget_collapse_three" class="card-link"
                                             data-toggle="collapse">Price</a>
                                     </div><!-- .card-header -->
-                                    <div id="widget_collapse_three" class="collapse">
+                                    <div id="widget_collapse_three" class="collapse show">
                                         <div class="card-body">
                                             <div id="slider-range"></div>
                                             <p>
@@ -79,11 +88,12 @@
                                 </div><!-- .be_store_collapse_widget -->
                                 <div class="card be_store_collapse_widget">
                                     <div class="card-header">
+                                        <i class="fas fa-caret-down"></i>
                                         <a href="#widget_collapse_four" class="card-link"
                                             data-toggle="collapse">Operating
                                             System</a>
                                     </div><!-- .card-header -->
-                                    <div id="widget_collapse_four" class="collapse">
+                                    <div id="widget_collapse_four" class="collapse show">
                                         <div class="card-body">
                                             <ul>
                                                 <li><a href="#">Android 6.0</a></li>
@@ -96,10 +106,11 @@
                                 </div><!-- .be_store_collapse_widget -->
                                 <div class="card be_store_collapse_widget">
                                     <div class="card-header">
+                                        <i class="fas fa-caret-down"></i>
                                         <a href="#widget_collapse_five" class="card-link" data-toggle="collapse">Screen
                                             Size</a>
                                     </div><!-- .card-header -->
-                                    <div id="widget_collapse_five" class="collapse">
+                                    <div id="widget_collapse_five" class="collapse show">
                                         <div class="card-body">
                                             <ul>
                                                 <li><a href="#">1920x1200</a></li>
@@ -116,7 +127,8 @@
                                 </div><!-- .be_store_collapse_widget -->
                                 <div class="card be_store_collapse_widget">
                                     <div class="card-header">
-                                        <a href="#widget_collapse_six" class="card-link"
+                                        <i class="fas fa-caret-right"></i>
+                                        <a href="#widget_collapse_six" class="card-link collapsed"
                                             data-toggle="collapse">Processor
                                             Core</a>
                                     </div><!-- .card-header -->
@@ -128,7 +140,9 @@
                                 </div><!-- .be_store_collapse_widget -->
                                 <div class="card be_store_collapse_widget">
                                     <div class="card-header">
-                                        <a href="#widget_collapse_seven" class="card-link" data-toggle="collapse">Tablet
+                                        <i class="fas fa-caret-right"></i>
+                                        <a href="#widget_collapse_seven" class="card-link collapsed"
+                                            data-toggle="collapse">Tablet
                                             Data Capacity</a>
                                     </div><!-- .card-header -->
                                     <div id="widget_collapse_seven" class="collapse">
@@ -139,7 +153,8 @@
                                 </div><!-- .be_store_collapse_widget -->
                                 <div class="card be_store_collapse_widget">
                                     <div class="card-header">
-                                        <a href="#widget_collapse_eight" class="card-link"
+                                        <i class="fas fa-caret-right"></i>
+                                        <a href="#widget_collapse_eight" class="card-link collapsed"
                                             data-toggle="collapse">Processor
                                             Core</a>
                                     </div><!-- .card-header -->
@@ -151,7 +166,9 @@
                                 </div><!-- .be_store_collapse_widget -->
                                 <div class="card be_store_collapse_widget">
                                     <div class="card-header">
-                                        <a href="#widget_collapse_nine" class="card-link" data-toggle="collapse">Tablet
+                                        <i class="fas fa-caret-right"></i>
+                                        <a href="#widget_collapse_nine" class="card-link collapsed"
+                                            data-toggle="collapse">Tablet
                                             Data
                                             Capacity</a>
                                     </div><!-- .card-header -->
@@ -164,16 +181,16 @@
                             </div> <!-- #widget_area -->
                             <div class="be_store_widget">
                                 <h5>Product tag</h5>
-                                <ul class="list-inline">
+                                <ul class="list-inline be_store_tags">
                                     <li class="list-inline-item"><a href="#">Asus tablet</a></li>
                                     <li class="list-inline-item"><a href="#">Windows tablet</a></li>
                                     <li class="list-inline-item"><a href="#">Xiaomi tablet</a></li>
-                                    <li class="list-inline-item"><a href="#">Hover</a></li>
+                                    <li class="list-inline-item"><a href="#" class="be_store_tags_item_active">Hover</a></li>
                                 </ul>
                             </div>
                         </aside><!-- #aside -->
-                    </div><!-- .col-md-3 -->
-                    <div class="col-md-9">
+                    </div><!-- .col-lg-3 -->
+                    <div class="col-lg-9 col-md-8 col-12">
                         <div id="product_wrapper">
                             <div id="product_filter_bar" class="d-flex justify-content-between">
                                 <div class="be_store_view_filter d-flex align-items-center">
@@ -199,482 +216,227 @@
                                 </div>
                             </div><!-- #product_filter_bar -->
                             <div id="product">
-                                <div class="container-fluid">
-                                    <div class="row">
-                                        <div class="col-md-3 col-sm-6 col-12">
-                                            <div class="be_store_product">
-                                                <a href="product-single.html">
-                                                    <img class="img-fluid" src="assets/img/products/HTB1.jpg"
-                                                        alt="product">
-                                                </a>
-                                                <div class="be_store_product_detail">
-                                                    <div class="be_store_product_rating">
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star be_store_no_rating_star"></i>
-                                                    </div>
-                                                    <p class="be_store_product_title">Lenovo P8 Tab3 8 plus</p>
-                                                    <p class="be_store_product_price">$329.99</p>
-                                                </div><!-- .be_store_product_detail -->
-                                                <div class="be_store_product_action">
-                                                    <a href="#" class="be_store_btn">Add to cart</a>
-                                                    <a href="#" class="be_store_wishlist">
-                                                        <img class="img-fluid" src="assets/img/icons/heart.svg"
-                                                            alt="add to wishlist">
-                                                    </a>
-                                                </div><!-- .be_store_product_action -->
-                                            </div><!-- .be_store_product -->
-                                        </div><!-- .col-md-3 -->
-                                        <div class="col-md-3 col-sm-6 col-12">
-                                            <div class="be_store_product">
-                                                <a href="product-single.html">
-                                                    <img class="img-fluid"
-                                                        src="assets/img/products/Original-Xiaomi-Mi-Notebook-1.jpg"
-                                                        alt="product">
-                                                </a>
-                                                <div class="be_store_product_detail">
-                                                    <div class="be_store_product_rating">
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star be_store_no_rating_star"></i>
-                                                    </div>
-                                                    <p class="be_store_product_title">Teclast X10 Quad Core 3G</p>
-                                                    <p class="be_store_product_price">$150.99</p>
-                                                </div><!-- .be_store_product_detail -->
-                                                <div class="be_store_product_action">
-                                                    <a href="#" class="be_store_btn">Add to cart</a>
-                                                    <a href="#" class="be_store_wishlist">
-                                                        <img class="img-fluid" src="assets/img/icons/heart.svg"
-                                                            alt="add to wishlist">
-                                                    </a>
-                                                </div><!-- .be_store_product_action -->
-                                            </div><!-- .be_store_product -->
-                                        </div><!-- .col-md-3 -->
-                                        <div class="col-md-3 col-sm-6 col-12">
-                                            <div class="be_store_product">
-                                                <a href="product-single.html">
-                                                    <img class="img-fluid"
-                                                        src="assets/img/products/Original-Xiaomi-Mi-Notebook-2.jpg"
-                                                        alt="product">
-                                                </a>
-                                                <div class="be_store_product_detail">
-                                                    <div class="be_store_product_rating">
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star be_store_no_rating_star"></i>
-                                                    </div>
-                                                    <p class="be_store_product_title">BDF 10 inch Design 3G</p>
-                                                    <p class="be_store_product_price">$586.99</p>
-                                                </div><!-- .be_store_product_detail -->
-                                                <div class="be_store_product_action">
-                                                    <a href="#" class="be_store_btn">Add to cart</a>
-                                                    <a href="#" class="be_store_wishlist">
-                                                        <img class="img-fluid" src="assets/img/icons/heart.svg"
-                                                            alt="add to wishlist">
-                                                    </a>
-                                                </div><!-- .be_store_product_action -->
-                                            </div><!-- .be_store_product -->
-                                        </div><!-- .col-md-3 -->
-                                        <div class="col-md-3 col-sm-6 col-12">
-                                            <div class="be_store_product">
-                                                <a href="product-single.html">
-                                                    <img class="img-fluid"
-                                                        src="assets/img/products/Original-Xiaomi-Mi-Notebook-3.jpg"
-                                                        alt="product">
-                                                </a>
-                                                <div class="be_store_product_detail">
-                                                    <div class="be_store_product_rating">
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star be_store_no_rating_star"></i>
-                                                    </div>
-                                                    <p class="be_store_product_title">BDF 10 inch Octa Core powerful</p>
-                                                    <p class="be_store_product_price">$50.00</p>
-                                                </div><!-- .be_store_product_detail -->
-                                                <div class="be_store_product_action">
-                                                    <a href="#" class="be_store_btn">Add to cart</a>
-                                                    <a href="#" class="be_store_wishlist">
-                                                        <img class="img-fluid" src="assets/img/icons/heart.svg"
-                                                            alt="add to wishlist">
-                                                    </a>
-                                                </div><!-- .be_store_product_action -->
-                                            </div><!-- .be_store_product -->
-                                        </div><!-- .col-md-3 -->
-                                        <div class="col-md-3 col-sm-6 col-12">
-                                            <div class="be_store_product">
-                                                <a href="product-single.html">
-                                                    <img class="img-fluid"
-                                                        src="assets/img/products/Original-Xiaomi-Mi-Notebook-4.jpg"
-                                                        alt="product">
-                                                </a>
-                                                <div class="be_store_product_detail">
-                                                    <div class="be_store_product_rating">
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star be_store_no_rating_star"></i>
-                                                    </div>
-                                                    <p class="be_store_product_title">Teclast P89H 7.85 inch Tablet PC
-                                                        MT8163B </p>
-                                                    <p class="be_store_product_price">$421.99</p>
-                                                </div><!-- .be_store_product_detail -->
-                                                <div class="be_store_product_action">
-                                                    <a href="#" class="be_store_btn">Add to cart</a>
-                                                    <a href="#" class="be_store_wishlist">
-                                                        <img class="img-fluid" src="assets/img/icons/heart.svg"
-                                                            alt="add to wishlist">
-                                                    </a>
-                                                </div><!-- .be_store_product_action -->
-                                            </div><!-- .be_store_product -->
-                                        </div><!-- .col-md-3 -->
-                                        <div class="col-md-3 col-sm-6 col-12">
-                                            <div class="be_store_product">
-                                                <a href="product-single.html">
-                                                    <img class="img-fluid"
-                                                        src="assets/img/products/Original-Xiaomi-Mi-Notebook-5.jpg"
-                                                        alt="product">
-                                                </a>
-                                                <div class="be_store_product_detail">
-                                                    <div class="be_store_product_rating">
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star be_store_no_rating_star"></i>
-                                                    </div>
-                                                    <p class="be_store_product_title">10.1 inch Android 6.0 32GB WIFI
-                                                    </p>
-                                                    <p class="be_store_product_price">$865.40</p>
-                                                </div><!-- .be_store_product_detail -->
-                                                <div class="be_store_product_action">
-                                                    <a href="#" class="be_store_btn">Add to cart</a>
-                                                    <a href="#" class="be_store_wishlist">
-                                                        <img class="img-fluid" src="assets/img/icons/heart.svg"
-                                                            alt="add to wishlist">
-                                                    </a>
-                                                </div><!-- .be_store_product_action -->
-                                            </div><!-- .be_store_product -->
-                                        </div><!-- .col-md-3 -->
-                                        <div class="col-md-3 col-sm-6 col-12">
-                                            <div class="be_store_product">
-                                                <span>- 50%</span>
-                                                <a href="product-single.html">
-                                                    <img class="img-fluid"
-                                                        src="assets/img/products/Original-Xiaomi-Mi-Notebook-6.jpg"
-                                                        alt="product">
-                                                </a>
-                                                <div class="be_store_product_detail">
-                                                    <div class="be_store_product_rating">
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star be_store_no_rating_star"></i>
-                                                    </div>
-                                                    <p class="be_store_product_title">Aoson R102 10.1 inch</p>
-                                                    <p class="be_store_product_price">$159.00 $320.00</p>
-                                                </div><!-- .be_store_product_detail -->
-                                                <div class="be_store_product_action">
-                                                    <a href="#" class="be_store_btn">Add to cart</a>
-                                                    <a href="#" class="be_store_wishlist">
-                                                        <img class="img-fluid" src="assets/img/icons/heart.svg"
-                                                            alt="add to wishlist">
-                                                    </a>
-                                                </div><!-- .be_store_product_action -->
-                                            </div><!-- .be_store_product -->
-                                        </div><!-- .col-md-3 -->
-                                        <div class="col-md-3 col-sm-6 col-12">
-                                            <div class="be_store_product">
-                                                <a href="product-single.html">
-                                                    <img class="img-fluid"
-                                                        src="assets/img/products/Original-Xiaomi-Mi-Notebook-7.jpg"
-                                                        alt="product">
-                                                </a>
-                                                <div class="be_store_product_detail">
-                                                    <div class="be_store_product_rating">
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star be_store_no_rating_star"></i>
-                                                    </div>
-                                                    <p class="be_store_product_title">FULCOL 10 inch Tablet PC Octa</p>
-                                                    <p class="be_store_product_price">$312.99</p>
-                                                </div><!-- .be_store_product_detail -->
-                                                <div class="be_store_product_action">
-                                                    <a href="#" class="be_store_btn">Add to cart</a>
-                                                    <a href="#" class="be_store_wishlist">
-                                                        <img class="img-fluid" src="assets/img/icons/heart.svg"
-                                                            alt="add to wishlist">
-                                                    </a>
-                                                </div><!-- .be_store_product_action -->
-                                            </div><!-- .be_store_product -->
-                                        </div><!-- .col-md-3 -->
-                                        <div class="col-md-3 col-sm-6 col-12">
-                                            <div class="be_store_product">
-                                                <span>New</span>
-                                                <a href="product-single.html">
-                                                    <img class="img-fluid"
-                                                        src="assets/img/products/Original-Xiaomi-Mi-Notebook-8.jpg"
-                                                        alt="product">
-                                                </a>
-                                                <div class="be_store_product_detail">
-                                                    <div class="be_store_product_rating">
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star be_store_no_rating_star"></i>
-                                                    </div>
-                                                    <p class="be_store_product_title">LZWIN 2018 Android 10 Core k99</p>
-                                                    <p class="be_store_product_price">$100.99</p>
-                                                </div><!-- .be_store_product_detail -->
-                                                <div class="be_store_product_action">
-                                                    <a href="#" class="be_store_btn">Add to cart</a>
-                                                    <a href="#" class="be_store_wishlist">
-                                                        <img class="img-fluid" src="assets/img/icons/heart.svg"
-                                                            alt="add to wishlist">
-                                                    </a>
-                                                </div><!-- .be_store_product_action -->
-                                            </div><!-- .be_store_product -->
-                                        </div><!-- .col-md-3 -->
-                                        <div class="col-md-3 col-sm-6 col-12">
-                                            <div class="be_store_product">
-                                                <a href="product-single.html">
-                                                    <img class="img-fluid"
-                                                        src="assets/img/products/Original-Xiaomi-Mi-Notebook-9.jpg"
-                                                        alt="product">
-                                                </a>
-                                                <div class="be_store_product_detail">
-                                                    <div class="be_store_product_rating">
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star be_store_no_rating_star"></i>
-                                                    </div>
-                                                    <p class="be_store_product_title">BMXC 10 Inch Tablet PC 3G 4G</p>
-                                                    <p class="be_store_product_price">$99.99</p>
-                                                </div><!-- .be_store_product_detail -->
-                                                <div class="be_store_product_action">
-                                                    <a href="#" class="be_store_btn">Add to cart</a>
-                                                    <a href="#" class="be_store_wishlist">
-                                                        <img class="img-fluid" src="assets/img/icons/heart.svg"
-                                                            alt="add to wishlist">
-                                                    </a>
-                                                </div><!-- .be_store_product_action -->
-                                            </div><!-- .be_store_product -->
-                                        </div><!-- .col-md-3 -->
-                                        <div class="col-md-3 col-sm-6 col-12">
-                                            <div class="be_store_product">
-                                                <a href="product-single.html">
-                                                    <img class="img-fluid"
-                                                        src="assets/img/products/Original-Xiaomi-Mi-Notebook-10.jpg"
-                                                        alt="product">
-                                                </a>
-                                                <div class="be_store_product_detail">
-                                                    <div class="be_store_product_rating">
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star be_store_no_rating_star"></i>
-                                                    </div>
-                                                    <p class="be_store_product_title">Luxury Golden 10.1 inch</p>
-                                                    <p class="be_store_product_price">$156.00</p>
-                                                </div><!-- .be_store_product_detail -->
-                                                <div class="be_store_product_action">
-                                                    <a href="#" class="be_store_btn">Add to cart</a>
-                                                    <a href="#" class="be_store_wishlist">
-                                                        <img class="img-fluid" src="assets/img/icons/heart.svg"
-                                                            alt="add to wishlist">
-                                                    </a>
-                                                </div><!-- .be_store_product_action -->
-                                            </div><!-- .be_store_product -->
-                                        </div><!-- .col-md-3 -->
-                                        <div class="col-md-3 col-sm-6 col-12">
-                                            <div class="be_store_product">
-                                                <a href="product-single.html">
-                                                    <img class="img-fluid"
-                                                        src="assets/img/products/Original-Xiaomi-Mi-Notebook-11.jpg"
-                                                        alt="product">
-                                                </a>
-                                                <div class="be_store_product_detail">
-                                                    <div class="be_store_product_rating">
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star be_store_no_rating_star"></i>
-                                                    </div>
-                                                    <p class="be_store_product_title">FULCOL 10 Inch Tablet pc Android
-                                                    </p>
-                                                    <p class="be_store_product_price">$1025.00</p>
-                                                </div><!-- .be_store_product_detail -->
-                                                <div class="be_store_product_action">
-                                                    <a href="#" class="be_store_btn">Add to cart</a>
-                                                    <a href="#" class="be_store_wishlist">
-                                                        <img class="img-fluid" src="assets/img/icons/heart.svg"
-                                                            alt="add to wishlist">
-                                                    </a>
-                                                </div><!-- .be_store_product_action -->
-                                            </div><!-- .be_store_product -->
-                                        </div><!-- .col-md-3 -->
-                                        <div class="col-md-3 col-sm-6 col-12">
-                                            <div class="be_store_product">
-                                                <a href="product-single.html">
-                                                    <img class="img-fluid"
-                                                        src="assets/img/products/Original-Xiaomi-Mi-Notebook-12.jpg"
-                                                        alt="product">
-                                                </a>
-                                                <div class="be_store_product_detail">
-                                                    <div class="be_store_product_rating">
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star be_store_no_rating_star"></i>
-                                                    </div>
-                                                    <p class="be_store_product_title">CARBAYTA 10.1' Android 10</p>
-                                                    <p class="be_store_product_price">$329.99</p>
-                                                </div><!-- .be_store_product_detail -->
-                                                <div class="be_store_product_action">
-                                                    <a href="#" class="be_store_btn">Add to cart</a>
-                                                    <a href="#" class="be_store_wishlist">
-                                                        <img class="img-fluid" src="assets/img/icons/heart.svg"
-                                                            alt="add to wishlist">
-                                                    </a>
-                                                </div><!-- .be_store_product_action -->
-                                            </div><!-- .be_store_product -->
-                                        </div><!-- .col-md-3 -->
-                                        <div class="col-md-3 col-sm-6 col-12">
-                                            <div class="be_store_product">
-                                                <a href="product-single.html">
-                                                    <img class="img-fluid"
-                                                        src="assets/img/products/Original-Xiaomi-Mi-Notebook-1.jpg"
-                                                        alt="product">
-                                                </a>
-                                                <div class="be_store_product_detail">
-                                                    <div class="be_store_product_rating">
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star be_store_no_rating_star"></i>
-                                                    </div>
-                                                    <p class="be_store_product_title">CONGWEI 10 inch Deca Core</p>
-                                                    <p class="be_store_product_price">$85.00</p>
-                                                </div><!-- .be_store_product_detail -->
-                                                <div class="be_store_product_action">
-                                                    <a href="#" class="be_store_btn">Add to cart</a>
-                                                    <a href="#" class="be_store_wishlist">
-                                                        <img class="img-fluid" src="assets/img/icons/heart.svg"
-                                                            alt="add to wishlist">
-                                                    </a>
-                                                </div><!-- .be_store_product_action -->
-                                            </div><!-- .be_store_product -->
-                                        </div><!-- .col-md-3 -->
-                                        <div class="col-md-3 col-sm-6 col-12">
-                                            <div class="be_store_product">
-                                                <a href="product-single.html">
-                                                    <img class="img-fluid"
-                                                        src="assets/img/products/Original-Xiaomi-Mi-Notebook-2.jpg"
-                                                        alt="product">
-                                                </a>
-                                                <div class="be_store_product_detail">
-                                                    <div class="be_store_product_rating">
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star be_store_no_rating_star"></i>
-                                                    </div>
-                                                    <p class="be_store_product_title">BOBARRY 10 inch Android/p>
-                                                    <p class="be_store_product_price">$56.99</p>
-                                                </div><!-- .be_store_product_detail -->
-                                                <div class="be_store_product_action">
-                                                    <a href="#" class="be_store_btn">Add to cart</a>
-                                                    <a href="#" class="be_store_wishlist">
-                                                        <img class="img-fluid" src="assets/img/icons/heart.svg"
-                                                            alt="add to wishlist">
-                                                    </a>
-                                                </div><!-- .be_store_product_action -->
-                                            </div><!-- .be_store_product -->
-                                        </div><!-- .col-md-3 -->
-                                        <div class="col-md-3 col-sm-6 col-12">
-                                            <div class="be_store_product">
-                                                <a href="product-single.html">
-                                                    <img class="img-fluid"
-                                                        src="assets/img/products/Original-Xiaomi-Mi-Notebook-3.jpg"
-                                                        alt="product">
-                                                </a>
-                                                <div class="be_store_product_detail">
-                                                    <div class="be_store_product_rating">
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star be_store_no_rating_star"></i>
-                                                    </div>
-                                                    <p class="be_store_product_title">Lenovo YOGA BOOK X90L NetBook
-                                                        10.1 </p>
-                                                    <p class="be_store_product_price">$136.50</p>
-                                                </div><!-- .be_store_product_detail -->
-                                                <div class="be_store_product_action">
-                                                    <a href="#" class="be_store_btn">Add to cart</a>
-                                                    <a href="#" class="be_store_wishlist">
-                                                        <img class="img-fluid" src="assets/img/icons/heart.svg"
-                                                            alt="add to wishlist">
-                                                    </a>
-                                                </div><!-- .be_store_product_action -->
-                                            </div><!-- .be_store_product -->
-                                        </div><!-- .col-md-3 -->
-                                    </div><!-- .row -->
-                                </div><!-- .container-fluid -->
-                            </div><!-- #product -->
-                            <div class="be_store_load_more">
-                                <a href="#">
-                                    <img class="img-fluid" src="assets/img/icons/loading.svg" alt="load more">
-                                    <span>Show more</span>
-                                </a>
-                            </div><!-- .be_store_load_more -->
-                            <div id="pagination">
-                                <ul class="list-inline">
-                                    <li class="be_store_prev_page list-inline-item">
-                                        <a href="#">
-                                            <i class="fas fa-less-than"></i>
-                                        </a>
-                                    </li>
-                                    <li class="list-inline-item be_store_active_page"><span>1</span></li>
-                                    <li class="list-inline-item"><a href="#">2</a></li>
-                                    <li class="list-inline-item"><a href="#">3</a></li>
-                                    <li class="list-inline-item"><a href="#">4</a></li>
-                                    <li class="list-inline-item"><a href="#">5</a></li>
-                                    <li class="list-inline-item"><span>...</span></li>
-                                    <li class="list-inline-item"><a href="#">26</a></li>
-                                    <li class="be_store_next_page list-inline-item">
-                                        <a href="#">
-                                            <i class="fas fa-greater-than"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div><!-- #pagination -->
-                        </div><!-- #product_wrapper -->
-                        <div id="recently_viewed">
-                            <div class="container-fluid">
-                                <h4 class="be_store_section_title">Recently Viewed</h4>
-                                <div class="row">
-                                    <div class="col-md-3 col-sm-6 col-12">
+                                <div class="row no-gutters">
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                                         <div class="be_store_product">
+                                            <a href="product-single.html">
+                                                <img class="img-fluid" src="assets/img/products/HTB1.jpg" alt="product">
+                                            </a>
+                                            <div class="be_store_product_detail">
+                                                <div class="be_store_product_rating">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star be_store_no_rating_star"></i>
+                                                </div>
+                                                <p class="be_store_product_title">Lenovo P8 Tab3 8 plus</p>
+                                                <p class="be_store_product_price">$329.99</p>
+                                            </div><!-- .be_store_product_detail -->
+                                            <div class="be_store_product_action">
+                                                <a href="#" class="be_store_btn">Add to cart</a>
+                                                <a href="#" class="be_store_wishlist">
+                                                    <img class="img-fluid" src="assets/img/icons/heart.svg"
+                                                        alt="add to wishlist">
+                                                </a>
+                                            </div><!-- .be_store_product_action -->
+                                        </div><!-- .be_store_product -->
+                                    </div><!-- .col-lg-3 -->
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                                        <div class="be_store_product">
+                                            <a href="product-single.html">
+                                                <img class="img-fluid"
+                                                    src="assets/img/products/Original-Xiaomi-Mi-Notebook-1.jpg"
+                                                    alt="product">
+                                            </a>
+                                            <div class="be_store_product_detail">
+                                                <div class="be_store_product_rating">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star be_store_no_rating_star"></i>
+                                                </div>
+                                                <p class="be_store_product_title">Teclast X10 Quad Core 3G</p>
+                                                <p class="be_store_product_price">$150.99</p>
+                                            </div><!-- .be_store_product_detail -->
+                                            <div class="be_store_product_action">
+                                                <a href="#" class="be_store_btn">Add to cart</a>
+                                                <a href="#" class="be_store_wishlist">
+                                                    <img class="img-fluid" src="assets/img/icons/heart.svg"
+                                                        alt="add to wishlist">
+                                                </a>
+                                            </div><!-- .be_store_product_action -->
+                                        </div><!-- .be_store_product -->
+                                    </div><!-- .col-lg-3 -->
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                                        <div class="be_store_product">
+                                            <a href="product-single.html">
+                                                <img class="img-fluid"
+                                                    src="assets/img/products/Original-Xiaomi-Mi-Notebook-2.jpg"
+                                                    alt="product">
+                                            </a>
+                                            <div class="be_store_product_detail">
+                                                <div class="be_store_product_rating">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star be_store_no_rating_star"></i>
+                                                </div>
+                                                <p class="be_store_product_title">BDF 10 inch Design 3G</p>
+                                                <p class="be_store_product_price">$586.99</p>
+                                            </div><!-- .be_store_product_detail -->
+                                            <div class="be_store_product_action">
+                                                <a href="#" class="be_store_btn">Add to cart</a>
+                                                <a href="#" class="be_store_wishlist">
+                                                    <img class="img-fluid" src="assets/img/icons/heart.svg"
+                                                        alt="add to wishlist">
+                                                </a>
+                                            </div><!-- .be_store_product_action -->
+                                        </div><!-- .be_store_product -->
+                                    </div><!-- .col-lg-3 -->
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                                        <div class="be_store_product">
+                                            <a href="product-single.html">
+                                                <img class="img-fluid"
+                                                    src="assets/img/products/Original-Xiaomi-Mi-Notebook-3.jpg"
+                                                    alt="product">
+                                            </a>
+                                            <div class="be_store_product_detail">
+                                                <div class="be_store_product_rating">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star be_store_no_rating_star"></i>
+                                                </div>
+                                                <p class="be_store_product_title">BDF 10 inch Octa Core powerful</p>
+                                                <p class="be_store_product_price">$50.00</p>
+                                            </div><!-- .be_store_product_detail -->
+                                            <div class="be_store_product_action">
+                                                <a href="#" class="be_store_btn">Add to cart</a>
+                                                <a href="#" class="be_store_wishlist">
+                                                    <img class="img-fluid" src="assets/img/icons/heart.svg"
+                                                        alt="add to wishlist">
+                                                </a>
+                                            </div><!-- .be_store_product_action -->
+                                        </div><!-- .be_store_product -->
+                                    </div><!-- .col-lg-3 -->
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                                        <div class="be_store_product">
+                                            <a href="product-single.html">
+                                                <img class="img-fluid"
+                                                    src="assets/img/products/Original-Xiaomi-Mi-Notebook-4.jpg"
+                                                    alt="product">
+                                            </a>
+                                            <div class="be_store_product_detail">
+                                                <div class="be_store_product_rating">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star be_store_no_rating_star"></i>
+                                                </div>
+                                                <p class="be_store_product_title">Teclast P89H 7.85 inch Tablet PC
+                                                    MT8163B </p>
+                                                <p class="be_store_product_price">$421.99</p>
+                                            </div><!-- .be_store_product_detail -->
+                                            <div class="be_store_product_action">
+                                                <a href="#" class="be_store_btn">Add to cart</a>
+                                                <a href="#" class="be_store_wishlist">
+                                                    <img class="img-fluid" src="assets/img/icons/heart.svg"
+                                                        alt="add to wishlist">
+                                                </a>
+                                            </div><!-- .be_store_product_action -->
+                                        </div><!-- .be_store_product -->
+                                    </div><!-- .col-lg-3 -->
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                                        <div class="be_store_product">
+                                            <a href="product-single.html">
+                                                <img class="img-fluid"
+                                                    src="assets/img/products/Original-Xiaomi-Mi-Notebook-5.jpg"
+                                                    alt="product">
+                                            </a>
+                                            <div class="be_store_product_detail">
+                                                <div class="be_store_product_rating">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star be_store_no_rating_star"></i>
+                                                </div>
+                                                <p class="be_store_product_title">10.1 inch Android 6.0 32GB WIFI
+                                                </p>
+                                                <p class="be_store_product_price">$865.40</p>
+                                            </div><!-- .be_store_product_detail -->
+                                            <div class="be_store_product_action">
+                                                <a href="#" class="be_store_btn">Add to cart</a>
+                                                <a href="#" class="be_store_wishlist">
+                                                    <img class="img-fluid" src="assets/img/icons/heart.svg"
+                                                        alt="add to wishlist">
+                                                </a>
+                                            </div><!-- .be_store_product_action -->
+                                        </div><!-- .be_store_product -->
+                                    </div><!-- .col-lg-3 -->
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                                        <div class="be_store_product">
+                                            <span class="be_store_product_discount_feature">- 50%</span>
+                                            <a href="product-single.html">
+                                                <img class="img-fluid"
+                                                    src="assets/img/products/Original-Xiaomi-Mi-Notebook-6.jpg"
+                                                    alt="product">
+                                            </a>
+                                            <div class="be_store_product_detail">
+                                                <div class="be_store_product_rating">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star be_store_no_rating_star"></i>
+                                                </div>
+                                                <p class="be_store_product_title">Aoson R102 10.1 inch</p>
+                                                <p class="be_store_product_price">$159.00 $320.00</p>
+                                            </div><!-- .be_store_product_detail -->
+                                            <div class="be_store_product_action">
+                                                <a href="#" class="be_store_btn">Add to cart</a>
+                                                <a href="#" class="be_store_wishlist">
+                                                    <img class="img-fluid" src="assets/img/icons/heart.svg"
+                                                        alt="add to wishlist">
+                                                </a>
+                                            </div><!-- .be_store_product_action -->
+                                        </div><!-- .be_store_product -->
+                                    </div><!-- .col-lg-3 -->
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                                        <div class="be_store_product">
+                                            <a href="product-single.html">
+                                                <img class="img-fluid"
+                                                    src="assets/img/products/Original-Xiaomi-Mi-Notebook-7.jpg"
+                                                    alt="product">
+                                            </a>
+                                            <div class="be_store_product_detail">
+                                                <div class="be_store_product_rating">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star be_store_no_rating_star"></i>
+                                                </div>
+                                                <p class="be_store_product_title">FULCOL 10 inch Tablet PC Octa</p>
+                                                <p class="be_store_product_price">$312.99</p>
+                                            </div><!-- .be_store_product_detail -->
+                                            <div class="be_store_product_action">
+                                                <a href="#" class="be_store_btn">Add to cart</a>
+                                                <a href="#" class="be_store_wishlist">
+                                                    <img class="img-fluid" src="assets/img/icons/heart.svg"
+                                                        alt="add to wishlist">
+                                                </a>
+                                            </div><!-- .be_store_product_action -->
+                                        </div><!-- .be_store_product -->
+                                    </div><!-- .col-lg-3 -->
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                                        <div class="be_store_product">
+                                            <span class="be_store_product_new_fearute">New</span>
                                             <a href="product-single.html">
                                                 <img class="img-fluid"
                                                     src="assets/img/products/Original-Xiaomi-Mi-Notebook-8.jpg"
@@ -695,11 +457,12 @@
                                                 <a href="#" class="be_store_btn">Add to cart</a>
                                                 <a href="#" class="be_store_wishlist">
                                                     <img class="img-fluid" src="assets/img/icons/heart.svg"
-                                                        alt="add to wishlist"></a>
+                                                        alt="add to wishlist">
+                                                </a>
                                             </div><!-- .be_store_product_action -->
                                         </div><!-- .be_store_product -->
-                                    </div><!-- .col-md-3 -->
-                                    <div class="col-md-3 col-sm-6 col-12">
+                                    </div><!-- .col-md-4 -->
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                                         <div class="be_store_product">
                                             <a href="product-single.html">
                                                 <img class="img-fluid"
@@ -725,8 +488,8 @@
                                                 </a>
                                             </div><!-- .be_store_product_action -->
                                         </div><!-- .be_store_product -->
-                                    </div><!-- .col-md-3 -->
-                                    <div class="col-md-3 col-sm-6 col-12">
+                                    </div><!-- .col-lg-3 -->
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                                         <div class="be_store_product">
                                             <a href="product-single.html">
                                                 <img class="img-fluid"
@@ -752,8 +515,8 @@
                                                 </a>
                                             </div><!-- .be_store_product_action -->
                                         </div><!-- .be_store_product -->
-                                    </div><!-- .col-md-3 -->
-                                    <div class="col-md-3 col-sm-6 col-12">
+                                    </div><!-- .col-lg-3 -->
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                                         <div class="be_store_product">
                                             <a href="product-single.html">
                                                 <img class="img-fluid"
@@ -768,7 +531,8 @@
                                                     <i class="fas fa-star"></i>
                                                     <i class="fas fa-star be_store_no_rating_star"></i>
                                                 </div>
-                                                <p class="be_store_product_title">FULCOL 10 Inch Tablet pc Android</p>
+                                                <p class="be_store_product_title">FULCOL 10 Inch Tablet pc Android
+                                                </p>
                                                 <p class="be_store_product_price">$1025.00</p>
                                             </div><!-- .be_store_product_detail -->
                                             <div class="be_store_product_action">
@@ -779,16 +543,265 @@
                                                 </a>
                                             </div><!-- .be_store_product_action -->
                                         </div><!-- .be_store_product -->
-                                    </div><!-- .col-md-3 -->
+                                    </div><!-- .col-lg-3 -->
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                                        <div class="be_store_product">
+                                            <a href="product-single.html">
+                                                <img class="img-fluid"
+                                                    src="assets/img/products/Original-Xiaomi-Mi-Notebook-12.jpg"
+                                                    alt="product">
+                                            </a>
+                                            <div class="be_store_product_detail">
+                                                <div class="be_store_product_rating">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star be_store_no_rating_star"></i>
+                                                </div>
+                                                <p class="be_store_product_title">CARBAYTA 10.1' Android 10</p>
+                                                <p class="be_store_product_price">$329.99</p>
+                                            </div><!-- .be_store_product_detail -->
+                                            <div class="be_store_product_action">
+                                                <a href="#" class="be_store_btn">Add to cart</a>
+                                                <a href="#" class="be_store_wishlist">
+                                                    <img class="img-fluid" src="assets/img/icons/heart.svg"
+                                                        alt="add to wishlist">
+                                                </a>
+                                            </div><!-- .be_store_product_action -->
+                                        </div><!-- .be_store_product -->
+                                    </div><!-- .col-lg-3 -->
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                                        <div class="be_store_product">
+                                            <a href="product-single.html">
+                                                <img class="img-fluid"
+                                                    src="assets/img/products/Original-Xiaomi-Mi-Notebook-1.jpg"
+                                                    alt="product">
+                                            </a>
+                                            <div class="be_store_product_detail">
+                                                <div class="be_store_product_rating">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star be_store_no_rating_star"></i>
+                                                </div>
+                                                <p class="be_store_product_title">CONGWEI 10 inch Deca Core</p>
+                                                <p class="be_store_product_price">$85.00</p>
+                                            </div><!-- .be_store_product_detail -->
+                                            <div class="be_store_product_action">
+                                                <a href="#" class="be_store_btn">Add to cart</a>
+                                                <a href="#" class="be_store_wishlist">
+                                                    <img class="img-fluid" src="assets/img/icons/heart.svg"
+                                                        alt="add to wishlist">
+                                                </a>
+                                            </div><!-- .be_store_product_action -->
+                                        </div><!-- .be_store_product -->
+                                    </div><!-- .col-lg-3 -->
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                                        <div class="be_store_product">
+                                            <a href="product-single.html">
+                                                <img class="img-fluid"
+                                                    src="assets/img/products/Original-Xiaomi-Mi-Notebook-2.jpg"
+                                                    alt="product">
+                                            </a>
+                                            <div class="be_store_product_detail">
+                                                <div class="be_store_product_rating">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star be_store_no_rating_star"></i>
+                                                </div>
+                                                <p class="be_store_product_title">BOBARRY 10 inch Android/p>
+                                                <p class="be_store_product_price">$56.99</p>
+                                            </div><!-- .be_store_product_detail -->
+                                            <div class="be_store_product_action">
+                                                <a href="#" class="be_store_btn">Add to cart</a>
+                                                <a href="#" class="be_store_wishlist">
+                                                    <img class="img-fluid" src="assets/img/icons/heart.svg"
+                                                        alt="add to wishlist">
+                                                </a>
+                                            </div><!-- .be_store_product_action -->
+                                        </div><!-- .be_store_product -->
+                                    </div><!-- .col-md-4 -->
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                                        <div class="be_store_product">
+                                            <a href="product-single.html">
+                                                <img class="img-fluid"
+                                                    src="assets/img/products/Original-Xiaomi-Mi-Notebook-3.jpg"
+                                                    alt="product">
+                                            </a>
+                                            <div class="be_store_product_detail">
+                                                <div class="be_store_product_rating">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star be_store_no_rating_star"></i>
+                                                </div>
+                                                <p class="be_store_product_title">Lenovo YOGA BOOK X90L NetBook
+                                                    10.1 </p>
+                                                <p class="be_store_product_price">$136.50</p>
+                                            </div><!-- .be_store_product_detail -->
+                                            <div class="be_store_product_action">
+                                                <a href="#" class="be_store_btn">Add to cart</a>
+                                                <a href="#" class="be_store_wishlist">
+                                                    <img class="img-fluid" src="assets/img/icons/heart.svg"
+                                                        alt="add to wishlist">
+                                                </a>
+                                            </div><!-- .be_store_product_action -->
+                                        </div><!-- .be_store_product -->
+                                    </div><!-- .col-lg-3 -->
                                 </div><!-- .row -->
-                            </div><!-- .container-fluid -->
+                            </div><!-- #product -->
+                            <div class="be_store_load_more">
+                                <a href="#">
+                                    <img class="img-fluid" src="assets/img/icons/loading.svg" alt="load more">
+                                    <span>Show more</span>
+                                </a>
+                            </div><!-- .be_store_load_more -->
+                            <div id="pagination" class="be_store_pagination">
+                                <ul class="list-inline">
+                                    <li class="be_store_prev_page list-inline-item">
+                                        <a href="#">
+                                            <i class="fas fa-less-than"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item be_store_active_page"><span>1</span></li>
+                                    <li class="list-inline-item"><a href="#">2</a></li>
+                                    <li class="list-inline-item"><a href="#">3</a></li>
+                                    <li class="list-inline-item"><a href="#">4</a></li>
+                                    <li class="list-inline-item"><a href="#">5</a></li>
+                                    <li class="list-inline-item be_store_pagination_more"><span>...</span></li>
+                                    <li class="list-inline-item"><a href="#">26</a></li>
+                                    <li class="be_store_next_page list-inline-item">
+                                        <a href="#">
+                                            <i class="fas fa-greater-than"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div><!-- #pagination -->
+                        </div><!-- #product_wrapper -->
+                        <div id="recently_viewed">
+                            <h4 class="be_store_section_title">Recently Viewed</h4>
+                            <div class="row no-gutters">
+                                <div class="col-md-3 col-sm-6 col-12">
+                                    <div class="be_store_product">
+                                        <a href="product-single.html">
+                                            <img class="img-fluid"
+                                                src="assets/img/products/Original-Xiaomi-Mi-Notebook-8.jpg"
+                                                alt="product">
+                                        </a>
+                                        <div class="be_store_product_detail">
+                                            <div class="be_store_product_rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star be_store_no_rating_star"></i>
+                                            </div>
+                                            <p class="be_store_product_title">LZWIN 2018 Android 10 Core k99</p>
+                                            <p class="be_store_product_price">$100.99</p>
+                                        </div><!-- .be_store_product_detail -->
+                                        <div class="be_store_product_action">
+                                            <a href="#" class="be_store_btn">Add to cart</a>
+                                            <a href="#" class="be_store_wishlist">
+                                                <img class="img-fluid" src="assets/img/icons/heart.svg"
+                                                    alt="add to wishlist"></a>
+                                        </div><!-- .be_store_product_action -->
+                                    </div><!-- .be_store_product -->
+                                </div><!-- .col-md-3 -->
+                                <div class="col-md-3 col-sm-6 col-12">
+                                    <div class="be_store_product">
+                                        <a href="product-single.html">
+                                            <img class="img-fluid"
+                                                src="assets/img/products/Original-Xiaomi-Mi-Notebook-9.jpg"
+                                                alt="product">
+                                        </a>
+                                        <div class="be_store_product_detail">
+                                            <div class="be_store_product_rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star be_store_no_rating_star"></i>
+                                            </div>
+                                            <p class="be_store_product_title">BMXC 10 Inch Tablet PC 3G 4G</p>
+                                            <p class="be_store_product_price">$99.99</p>
+                                        </div><!-- .be_store_product_detail -->
+                                        <div class="be_store_product_action">
+                                            <a href="#" class="be_store_btn">Add to cart</a>
+                                            <a href="#" class="be_store_wishlist">
+                                                <img class="img-fluid" src="assets/img/icons/heart.svg"
+                                                    alt="add to wishlist">
+                                            </a>
+                                        </div><!-- .be_store_product_action -->
+                                    </div><!-- .be_store_product -->
+                                </div><!-- .col-md-3 -->
+                                <div class="col-md-3 col-sm-6 col-12">
+                                    <div class="be_store_product">
+                                        <a href="product-single.html">
+                                            <img class="img-fluid"
+                                                src="assets/img/products/Original-Xiaomi-Mi-Notebook-10.jpg"
+                                                alt="product">
+                                        </a>
+                                        <div class="be_store_product_detail">
+                                            <div class="be_store_product_rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star be_store_no_rating_star"></i>
+                                            </div>
+                                            <p class="be_store_product_title">Luxury Golden 10.1 inch</p>
+                                            <p class="be_store_product_price">$156.00</p>
+                                        </div><!-- .be_store_product_detail -->
+                                        <div class="be_store_product_action">
+                                            <a href="#" class="be_store_btn">Add to cart</a>
+                                            <a href="#" class="be_store_wishlist">
+                                                <img class="img-fluid" src="assets/img/icons/heart.svg"
+                                                    alt="add to wishlist">
+                                            </a>
+                                        </div><!-- .be_store_product_action -->
+                                    </div><!-- .be_store_product -->
+                                </div><!-- .col-md-3 -->
+                                <div class="col-md-3 col-sm-6 col-12">
+                                    <div class="be_store_product">
+                                        <a href="product-single.html">
+                                            <img class="img-fluid"
+                                                src="assets/img/products/Original-Xiaomi-Mi-Notebook-11.jpg"
+                                                alt="product">
+                                        </a>
+                                        <div class="be_store_product_detail">
+                                            <div class="be_store_product_rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star be_store_no_rating_star"></i>
+                                            </div>
+                                            <p class="be_store_product_title">FULCOL 10 Inch Tablet pc Android</p>
+                                            <p class="be_store_product_price">$1025.00</p>
+                                        </div><!-- .be_store_product_detail -->
+                                        <div class="be_store_product_action">
+                                            <a href="#" class="be_store_btn">Add to cart</a>
+                                            <a href="#" class="be_store_wishlist">
+                                                <img class="img-fluid" src="assets/img/icons/heart.svg"
+                                                    alt="add to wishlist">
+                                            </a>
+                                        </div><!-- .be_store_product_action -->
+                                    </div><!-- .be_store_product -->
+                                </div><!-- .col-md-3 -->
+                            </div><!-- .row -->
+
                         </div><!-- #recently_viewed -->
-                    </div><!-- .col-md-9 -->
+                    </div><!-- .col-lg-9 -->
                 </div><!-- .row -->
-            </div><!-- .container-fluid -->
+            </div><!-- .container -->
         </section><!-- #content -->
         <section id="keywords">
-            <div class="container-fluid">
+            <div class="container">
                 <h6>Most Search Keywords</h6>
                 <div class="be_store_search_keyword d-flex">
                     <span>laptop:</span>
@@ -836,7 +849,7 @@
         </section><!-- #keywords -->
         <footer id="footer_wrapper">
             <div id="footer">
-                <div class="container-fluid">
+                <div class="container">
                     <div class="row">
                         <div class="col-md-2 col-sm-6 col-12">
                             <div class="be_store_footer_widget">
@@ -931,29 +944,29 @@
                                         <p>Contrary to popular belief of lorem Ipsm Latin amet ltin from.</p>
                                     </li>
                                     <li>
-                                        <input type="email" value="" name="email">
+                                        <input type="email" value="" name="email" placeholder="Your E-mail address...">
                                         <a href="#"><img src="assets/img/icons/send-mail.svg" alt="send mail"></a>
                                     </li>
                                     <li>
                                         <ul class="list-inline be_store_social_media">
                                             <li class="list-inline-item">
                                                 <a href="#">
-                                                    <i class="fab fa-facebook-f"></i>
+                                                    <i class="fab fa-facebook-f fa-lg"></i>
                                                 </a>
                                             </li>
                                             <li class="list-inline-item">
                                                 <a href="#">
-                                                    <i class="fab fa-twitter"></i>
+                                                    <i class="fab fa-twitter fa-lg"></i>
                                                 </a>
                                             </li>
                                             <li class="list-inline-item">
                                                 <a href="#">
-                                                    <i class="fab fa-youtube"></i>
+                                                    <i class="fab fa-youtube fa-lg"></i>
                                                 </a>
                                             </li>
                                             <li class="list-inline-item">
                                                 <a href="#">
-                                                    <i class="fas fa-rss"></i>
+                                                    <i class="fas fa-rss fa-lg"></i>
                                                 </a>
                                             </li>
                                         </ul>
@@ -965,7 +978,7 @@
                 </div><!-- .container-fluid -->
             </div><!-- #footer -->
             <div id="footer_bottom">
-                <div class="container-fluid">
+                <div class="container">
                     <div class="row">
                         <div class="col-12 col-sm-6">
                             <p class="d-flex justify-content-sm-start justify-content-center">Copyright &copy; 2018 Oleh
