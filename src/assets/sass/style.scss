@@ -150,10 +150,16 @@
                     padding: 12px 0 12px 20px;
                     width: 100%;
                     position: relative;
+                    transition: all 300ms ease;
                 }
                 i{
                     position: absolute;
                     right: 20px;
+                }
+                &:hover{
+                    a{
+                        padding-left: 30px;
+                    }
                 }
             }
             font-size: 0.81rem;
