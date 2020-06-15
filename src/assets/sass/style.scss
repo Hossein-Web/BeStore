@@ -76,21 +76,20 @@ Table of content
         // display: flex;
         display: none;
     }
-    .be_store_wishlist{
-        border: 1px solid $border_color;
-        border-radius: 40px;
-        width: 40px;
-        height: 40px;
-        display: inline-block;
-        position: relative;
-        img{
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate( -50%, -50% );
-        }
+}
+.be_store_wishlist{
+    border: 1px solid $border_color;
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    position: relative;
+    img{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate( -50%, -50% );
     }
-
 }
 .be_store_btn{
     background-color: $accent_color;
@@ -149,6 +148,25 @@ Table of content
         }
     }
 }
+
+.be_store_tags{
+    li{
+        margin-bottom: 10px;
+        a{
+            display: inline-block;
+            background-color: white;
+            border: 1px solid $border_color;
+            border-radius: 20px;
+            padding: 10px 15px;
+            font-size: 0.81rem;
+            color: $text_color;
+            &.be_store_tags_item_active{
+                border-color: $accent_color;
+                color: $accent_color;
+            }
+        }
+    }
+}
 /*################### Headline Section ###################*/
 #headline{
     margin-bottom: 2rem;
@@ -174,6 +192,11 @@ Table of content
 #widget_area_collapse{
     background-color: white;
     box-shadow:  0 3px 6px rgba( 0, 0, 0, 0.16 );
+    .be_store_collapse_widget{
+        .card-body{
+            font-size: 0.81rem;
+        }    
+    }
 }
 .card-header{
     color: $bold_text_color;
@@ -190,8 +213,105 @@ Table of content
 }
 .card-body{
     background-color: white;
+    padding: 10px 30px 15px;
+}
+#widget_collapse_one{
+    p{
+        margin-bottom: 0;
+        &::before{
+            font-family: "Font Awesome 5 Free";
+            content: "\f104";
+            position: relative;
+            display: inline;
+            font-weight: 600;
+            margin-right: 5px;
+        }
+    }
+    ul{
+        padding-left: 10px;
+        li{
+            font-weight: bold;
+        }
+    }
 }
 
+#widget_collapse_two{
+    .be_store_search_form{
+        position: relative;
+        margin-bottom: 10px;
+        input{
+            border: 1px solid $border_color;
+            border-right:0 ;
+            border-radius: 20px 0 0 20px;
+            height: 40px;
+            padding-left: 15px;
+            width: 80%;
+        }
+        button{
+            position: absolute;
+            right: 8px;
+            height: 40px;
+            background-color: white;
+            border: 1px solid $border_color;
+            border-left: 0;
+            border-radius: 0 20px 20px 0;
+            padding: 0 15px;
+            span{
+                position: absolute;
+                display: block;
+                width: 1.2rem;
+                height: 1px;
+                background-color: $anchor_color;
+                left: 6px;
+                &:nth-child(1){
+                    transform: rotate( 45deg );
+                }
+                &:nth-child(2){
+                    transform: rotate( -45deg );
+                }
+            }
+        }
+    }
+}
+#widget_collapse_three{
+    .card-body{
+        .ui-slider-horizontal{
+            height: 0.2em;
+            .ui-widget-header{
+                background-color: $accent_color;
+
+            }
+            .ui-slider-handle{
+                width: 0.94em;
+                height: 0.94em;
+                top: -0.4em;
+                border-radius: 50%;
+                border: none;
+                background-color: $accent_color;
+            }
+        }
+        .ui-widget-content{
+            background-color: $border_color;
+            border: none;
+        }
+        p{
+            margin-top: 22px;
+            margin-bottom: 0;
+        }
+        input#amount{
+            border: none;
+            font-weight: bold;
+            color: $bold_text_color;
+            width: 60%;
+        }
+    }   
+}
+.be_store_widget{
+    margin-top: 50px;
+    h5{
+        margin-bottom: 20px;
+    }
+}
 /*################### Content Section ###################*/
 
 // #product_filter_bar
@@ -300,8 +420,6 @@ Table of content
             margin-top: 15px;
 
         }
-        list-style: none;
-        padding-inline-start: unset;
         margin-bottom: 0;
         a, span, p{
             color: white;
