@@ -13,6 +13,7 @@ html{
     color: $anchor_color;
     &:hover{
       color: $accent_color;
+      cursor: pointer;
     }
   }
   input, button, textArea{
@@ -24,4 +25,8 @@ html{
   }
   a:active, a:focus{
     outline: none;
+  }
+  ul{
+    list-style: none !important;
+    padding-left: 0;
   }
