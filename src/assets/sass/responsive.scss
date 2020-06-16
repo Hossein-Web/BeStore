@@ -12,3 +12,18 @@
             }
         }
     }
+
+//Comment section
+@media only screen and ( max-width: 506px ){
+    .be_store_comment_feature{
+        flex-direction: column;
+    }
+}
+@media only screen and ( max-width: 398px ){
+    .be_store_comment_feature{
+        div{
+            flex-direction: column;
+            align-items: start !important;
+        }
+    }
+}
