@@ -1,0 +1,31 @@
+@import "partials/variables";
+
+// small mobiles
+@media only screen and ( max-width: 576px ) {
+    #advertisement{
+        display: none;
+    }
+    .be_store_carousel{
+        .carousel-indicators{
+            display: none;
+        }
+    }
+}
+
+@media only screen and ( max-width: 1199px ) {
+    .navbar-toggler{
+        margin: 12px 0;
+    }
+
+    .be_store_main_menu .nav-link{
+        border: 1px solid $border_color;
+        border-top: none;
+    }
+}
+
+//very large screens
+@media screen and ( min-width: 1200px ) {
+    .be_store_main_menu #collapsibleNavbar{
+        padding-top: 5px;
+    }
+}
