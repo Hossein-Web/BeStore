@@ -1,9 +1,8 @@
 .idea
 .sass-cache
 node_modules
+gulpfile.js
+dist
 src/assets/fonts
 src/assets/img
 src/assets/css
-src/font
-dist
-gulpfile.js
