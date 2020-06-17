@@ -30,7 +30,7 @@ Table of content
     position: relative;
     &:hover{
         box-shadow: 0 4px 10px rgba( 0, 0, 0, 0.2);
-        position: absolute;
+        // position: absolute;
         z-index: 1;
         .be_store_product_action{
             display: flex;
@@ -640,6 +640,10 @@ span{
         @extend .be_store_product_rating
     }
 }
-#related_product_wrapper{
+
+.be_store_recently_viewed_wrapper, .be_store_related_product_wrapper{
+    background-color: white;
+}
+#related_product{
     margin-top: 60px;
 }
