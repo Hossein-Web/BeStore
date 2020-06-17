@@ -5,9 +5,17 @@ html{
   }
   
   body{
+    //font-family: Yekan, sans-serif;
     background-color: $background_color;
+    color: $text_color;
   }
-  
+  a{
+    color: $anchor_color;
+    &:hover{
+      color: $accent_color;
+      cursor: pointer;
+    }
+  }
   input, button, textArea{
     outline: none;
     &:focus{outline: none;}
@@ -17,4 +25,8 @@ html{
   }
   a:active, a:focus{
     outline: none;
+  }
+  ul{
+    list-style: none !important;
+    padding-left: 0;
   }
